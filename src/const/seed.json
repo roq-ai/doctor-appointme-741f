@@ -1,0 +1,2822 @@
+[
+  {
+    "insurance": [
+      {
+        "id": "eafd5ef1-81fa-461a-a76a-df921b5b3c44",
+        "name": "Health Insurance",
+        "description": "Comprehensive coverage for medical expenses",
+        "coverage": "$1 million",
+        "terms_and_conditions": "Policy terms and conditions apply",
+        "created_at": "2023-08-15T14:41:49.413Z",
+        "updated_at": "2023-08-16T06:41:07.046Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      },
+      {
+        "id": "475e5d3a-9802-4027-a262-d1ccf1a6fad4",
+        "name": "Auto Insurance",
+        "description": "Protection for your vehicle against accidents",
+        "coverage": "$500,000",
+        "terms_and_conditions": "Exclusions may apply",
+        "created_at": "2023-08-16T02:48:20.384Z",
+        "updated_at": "2023-08-16T06:17:51.287Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      },
+      {
+        "id": "2351f78f-a59d-4d7d-b8f7-fdc4c8cb4504",
+        "name": "Home Insurance",
+        "description": "Coverage for your home and belongings",
+        "coverage": "$750,000",
+        "terms_and_conditions": "Coverage subject to approval",
+        "created_at": "2023-08-15T16:03:14.666Z",
+        "updated_at": "2023-08-15T22:09:59.953Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      },
+      {
+        "id": "300e5789-9beb-4f8a-966f-86fd90b2f3f5",
+        "name": "Travel Insurance",
+        "description": "Insurance for unexpected travel emergencies",
+        "coverage": "$2 million",
+        "terms_and_conditions": "Policy renewal required annually",
+        "created_at": "2023-08-16T00:56:37.330Z",
+        "updated_at": "2023-08-16T01:24:03.715Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      },
+      {
+        "id": "f1e14f75-210e-43e5-bfa5-ea3acccc7078",
+        "name": "Life Insurance",
+        "description": "Financial protection for your loved ones",
+        "coverage": "$250,000",
+        "terms_and_conditions": "Deductibles may apply",
+        "created_at": "2023-08-16T06:37:00.690Z",
+        "updated_at": "2023-08-16T10:58:13.912Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      }
+    ],
+    "patient": [
+      {
+        "id": "8adbf6fd-222a-4e96-afe9-c855c2adf63e",
+        "date_of_birth": "2023-08-16T03:04:47.731Z",
+        "gender": "Male",
+        "medical_history": "No known medical conditions",
+        "emergency_contact": "John Doe - 1234567890",
+        "created_at": "2023-08-15T18:47:22.780Z",
+        "updated_at": "2023-08-16T08:06:02.755Z",
+        "insurance_id": "2351f78f-a59d-4d7d-b8f7-fdc4c8cb4504",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8bb88b5e-152b-4316-9393-54fbacd0588f",
+        "date_of_birth": "2023-08-15T19:25:16.106Z",
+        "gender": "Female",
+        "medical_history": "Allergies to certain medications",
+        "emergency_contact": "Jane Smith - 9876543210",
+        "created_at": "2023-08-15T19:47:29.252Z",
+        "updated_at": "2023-08-15T21:55:39.556Z",
+        "insurance_id": "475e5d3a-9802-4027-a262-d1ccf1a6fad4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4152f10b-eb59-4fc6-b1c8-eba7119f9bf1",
+        "date_of_birth": "2023-08-15T16:15:44.652Z",
+        "gender": "Other",
+        "medical_history": "Previous surgeries",
+        "emergency_contact": "Michael Brown - 5555555555",
+        "created_at": "2023-08-16T10:10:48.878Z",
+        "updated_at": "2023-08-15T18:08:12.273Z",
+        "insurance_id": "2351f78f-a59d-4d7d-b8f7-fdc4c8cb4504",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "075533ff-4150-4365-a70c-49159aed950f",
+        "date_of_birth": "2023-08-15T15:58:01.794Z",
+        "gender": "Prefer not to say",
+        "medical_history": "Chronic illness",
+        "emergency_contact": "Sarah Jones - 1111111111",
+        "created_at": "2023-08-15T21:27:18.709Z",
+        "updated_at": "2023-08-16T03:19:22.966Z",
+        "insurance_id": "eafd5ef1-81fa-461a-a76a-df921b5b3c44",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3025d342-b16d-4c1c-a2d6-1c96899b3fa8",
+        "date_of_birth": "2023-08-15T17:08:41.763Z",
+        "gender": "Unknown",
+        "medical_history": "Family history of heart disease",
+        "emergency_contact": "David Wilson - 9999999999",
+        "created_at": "2023-08-15T23:11:41.818Z",
+        "updated_at": "2023-08-16T12:30:51.426Z",
+        "insurance_id": "2351f78f-a59d-4d7d-b8f7-fdc4c8cb4504",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "availability": [
+      {
+        "id": "a96dac60-b707-439b-82b2-897efa500d6c",
+        "day_of_week": "Monday",
+        "start_time": "2023-08-15T23:38:05.270Z",
+        "end_time": "2023-08-16T04:44:57.711Z",
+        "status": "Available",
+        "created_at": "2023-08-16T04:21:46.647Z",
+        "updated_at": "2023-08-15T14:39:13.506Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c20e4c89-6e3b-4bca-b82a-367503493296",
+        "day_of_week": "Tuesday",
+        "start_time": "2023-08-15T16:32:41.232Z",
+        "end_time": "2023-08-16T06:38:14.941Z",
+        "status": "Unavailable",
+        "created_at": "2023-08-16T01:32:52.735Z",
+        "updated_at": "2023-08-16T04:03:24.401Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "991a5f7a-3eae-452b-b259-9e460d5cf0b7",
+        "day_of_week": "Wednesday",
+        "start_time": "2023-08-16T12:55:08.813Z",
+        "end_time": "2023-08-16T03:24:13.063Z",
+        "status": "On leave",
+        "created_at": "2023-08-15T17:09:13.987Z",
+        "updated_at": "2023-08-16T04:03:57.214Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fbb7f0c3-8b76-4e87-8188-59ad629050ff",
+        "day_of_week": "Thursday",
+        "start_time": "2023-08-16T09:42:08.533Z",
+        "end_time": "2023-08-15T19:34:59.086Z",
+        "status": "In a meeting",
+        "created_at": "2023-08-15T19:22:55.575Z",
+        "updated_at": "2023-08-16T14:24:13.796Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "517bb0d4-7c5a-41f0-ac84-ac51590557bc",
+        "day_of_week": "Friday",
+        "start_time": "2023-08-16T00:33:51.540Z",
+        "end_time": "2023-08-15T18:12:17.574Z",
+        "status": "Busy",
+        "created_at": "2023-08-16T03:22:56.376Z",
+        "updated_at": "2023-08-16T12:03:57.412Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "2966104f-60e6-4d71-a7fd-7dc3a9cdaad3",
+        "date": "2023-08-15T23:05:48.109Z",
+        "time": "2023-08-15T14:47:54.130Z",
+        "status": "Scheduled",
+        "appointment_type": "General check-up",
+        "created_at": "2023-08-16T10:55:20.192Z",
+        "updated_at": "2023-08-16T14:34:16.671Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "8adbf6fd-222a-4e96-afe9-c855c2adf63e"
+      },
+      {
+        "id": "41d4ca4f-7eb3-4678-bef7-f78109f097b5",
+        "date": "2023-08-16T01:30:38.601Z",
+        "time": "2023-08-16T13:12:00.106Z",
+        "status": "Cancelled",
+        "appointment_type": "Dental cleaning",
+        "created_at": "2023-08-15T18:54:34.324Z",
+        "updated_at": "2023-08-15T21:57:18.899Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "8adbf6fd-222a-4e96-afe9-c855c2adf63e"
+      },
+      {
+        "id": "95a089b5-ecb2-4c5d-a23d-5ec22ca74c39",
+        "date": "2023-08-16T07:36:05.279Z",
+        "time": "2023-08-16T10:50:07.998Z",
+        "status": "Completed",
+        "appointment_type": "Eye examination",
+        "created_at": "2023-08-15T17:38:57.454Z",
+        "updated_at": "2023-08-16T06:47:02.751Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "8adbf6fd-222a-4e96-afe9-c855c2adf63e"
+      },
+      {
+        "id": "963a2c4f-8392-456f-b628-271553be263c",
+        "date": "2023-08-16T13:23:19.636Z",
+        "time": "2023-08-15T17:40:20.048Z",
+        "status": "Rescheduled",
+        "appointment_type": "Physical therapy",
+        "created_at": "2023-08-15T21:44:02.004Z",
+        "updated_at": "2023-08-16T05:10:23.411Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "4152f10b-eb59-4fc6-b1c8-eba7119f9bf1"
+      },
+      {
+        "id": "771c820e-c71c-4858-a9fb-2d9865b6cc25",
+        "date": "2023-08-16T13:48:58.151Z",
+        "time": "2023-08-16T01:28:57.416Z",
+        "status": "Pending",
+        "appointment_type": "Specialist consultation",
+        "created_at": "2023-08-16T06:26:48.542Z",
+        "updated_at": "2023-08-15T16:07:50.283Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "8bb88b5e-152b-4316-9393-54fbacd0588f"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "41163b0f-1809-4e5c-8529-8f960befad84",
+        "email": "Elsie67@gmail.com",
+        "firstName": "Janessa",
+        "lastName": "Hayes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6392262",
+        "tenantId": null
+      },
+      {
+        "reference": "4c2b6e0a-656d-45ec-9f21-2d3f30057890",
+        "email": "Trenton_Spencer@gmail.com",
+        "firstName": "Eldridge",
+        "lastName": "Kulas",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89439318",
+        "tenantId": null
+      },
+      {
+        "reference": "cde1dbb7-2de9-4808-aaa8-8b668a874cef",
+        "email": "Arlene_Heaney@hotmail.com",
+        "firstName": "Berenice",
+        "lastName": "McLaughlin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/613.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0a966253-4823-43c1-816c-e4776e5f87ab",
+        "email": "Sedrick73@yahoo.com",
+        "firstName": "Mariam",
+        "lastName": "O'Hara",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/97067858",
+        "tenantId": null
+      },
+      {
+        "reference": "542ecbea-6fca-4bef-ba98-257f09e4fd53",
+        "email": "Jazmin98@gmail.com",
+        "firstName": "Alex",
+        "lastName": "Ledner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/736.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "insurance": [
+      {
+        "id": "08480df3-8833-4e32-9ae8-46c73cba1435",
+        "name": "Health Insurance",
+        "description": "Comprehensive coverage for medical expenses",
+        "coverage": "$1 million",
+        "terms_and_conditions": "Policy valid for one year",
+        "created_at": "2023-08-16T03:26:17.425Z",
+        "updated_at": "2023-08-16T05:01:33.677Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      },
+      {
+        "id": "ed3b98fc-2d13-4532-9b6f-b6d330a45c3f",
+        "name": "Auto Insurance",
+        "description": "Protection for your vehicle against accidents",
+        "coverage": "$500,000",
+        "terms_and_conditions": "Deductible of $500 applies",
+        "created_at": "2023-08-15T22:30:58.778Z",
+        "updated_at": "2023-08-16T04:03:35.646Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      },
+      {
+        "id": "ee9701e4-77f1-4f48-a698-7aa6d2d877ca",
+        "name": "Home Insurance",
+        "description": "Coverage for your home and belongings",
+        "coverage": "$750,000",
+        "terms_and_conditions": "Coverage for natural disasters included",
+        "created_at": "2023-08-16T14:35:54.387Z",
+        "updated_at": "2023-08-15T20:36:28.018Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      },
+      {
+        "id": "b1b4cb66-523b-481e-8b93-d4d6782de9f0",
+        "name": "Travel Insurance",
+        "description": "Insurance for unexpected travel emergencies",
+        "coverage": "$2 million",
+        "terms_and_conditions": "Emergency medical expenses covered",
+        "created_at": "2023-08-15T23:53:15.981Z",
+        "updated_at": "2023-08-16T10:14:19.670Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      },
+      {
+        "id": "33f83a71-279e-4ac9-92ae-f9629c97a7ff",
+        "name": "Life Insurance",
+        "description": "Financial protection for your loved ones",
+        "coverage": "$250,000",
+        "terms_and_conditions": "Policy can be renewed annually",
+        "created_at": "2023-08-15T14:56:47.322Z",
+        "updated_at": "2023-08-16T14:10:09.770Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      }
+    ],
+    "patient": [
+      {
+        "id": "dd82de09-4513-4c53-b1dc-da9a4b58e11c",
+        "date_of_birth": "2023-08-15T21:42:43.891Z",
+        "gender": "Male",
+        "medical_history": "No known medical conditions",
+        "emergency_contact": "John Doe - 1234567890",
+        "created_at": "2023-08-15T23:28:22.134Z",
+        "updated_at": "2023-08-15T21:45:34.551Z",
+        "insurance_id": "08480df3-8833-4e32-9ae8-46c73cba1435",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c8747bc0-f8c0-4f45-a88b-f80ad8e7e144",
+        "date_of_birth": "2023-08-16T04:20:25.180Z",
+        "gender": "Female",
+        "medical_history": "Allergies to certain medications",
+        "emergency_contact": "Jane Smith - 9876543210",
+        "created_at": "2023-08-15T18:57:18.950Z",
+        "updated_at": "2023-08-15T20:22:42.416Z",
+        "insurance_id": "ed3b98fc-2d13-4532-9b6f-b6d330a45c3f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "34aaf333-2aa1-40fb-9f61-2516c5109fc4",
+        "date_of_birth": "2023-08-15T20:27:45.646Z",
+        "gender": "Other",
+        "medical_history": "Previous surgeries",
+        "emergency_contact": "Michael Brown - 5555555555",
+        "created_at": "2023-08-16T08:11:03.389Z",
+        "updated_at": "2023-08-16T01:17:14.465Z",
+        "insurance_id": "33f83a71-279e-4ac9-92ae-f9629c97a7ff",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a1f0df42-feeb-458b-8b7b-a7a6009ddc07",
+        "date_of_birth": "2023-08-16T07:10:21.382Z",
+        "gender": "Prefer not to say",
+        "medical_history": "Chronic illness",
+        "emergency_contact": "Sarah Jones - 1111111111",
+        "created_at": "2023-08-16T06:45:51.465Z",
+        "updated_at": "2023-08-16T05:12:44.012Z",
+        "insurance_id": "b1b4cb66-523b-481e-8b93-d4d6782de9f0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1e8f23e2-9d09-4e7d-a6b2-c5869854b7f4",
+        "date_of_birth": "2023-08-15T20:16:08.645Z",
+        "gender": "Unknown",
+        "medical_history": "Family history of heart disease",
+        "emergency_contact": "David Wilson - 9999999999",
+        "created_at": "2023-08-15T20:20:11.043Z",
+        "updated_at": "2023-08-15T21:41:17.339Z",
+        "insurance_id": "33f83a71-279e-4ac9-92ae-f9629c97a7ff",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "availability": [
+      {
+        "id": "6e5d5eef-f77c-4588-ac0f-2cdb95459f1d",
+        "day_of_week": "Monday",
+        "start_time": "2023-08-16T04:58:32.883Z",
+        "end_time": "2023-08-16T10:43:43.839Z",
+        "status": "Available",
+        "created_at": "2023-08-15T22:20:15.095Z",
+        "updated_at": "2023-08-16T05:44:26.818Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b633bdcf-95df-47cb-9857-dd3a7b98675c",
+        "day_of_week": "Tuesday",
+        "start_time": "2023-08-16T12:09:04.327Z",
+        "end_time": "2023-08-16T08:56:18.936Z",
+        "status": "Unavailable",
+        "created_at": "2023-08-15T19:55:36.485Z",
+        "updated_at": "2023-08-16T07:11:19.561Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "49003d30-24a4-47ac-9c4d-33c5d943262f",
+        "day_of_week": "Wednesday",
+        "start_time": "2023-08-16T05:11:18.590Z",
+        "end_time": "2023-08-15T20:48:24.400Z",
+        "status": "On leave",
+        "created_at": "2023-08-16T06:22:25.200Z",
+        "updated_at": "2023-08-16T03:49:58.201Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "99153713-16b8-4a52-a179-b8f26ccabffd",
+        "day_of_week": "Thursday",
+        "start_time": "2023-08-16T10:56:26.893Z",
+        "end_time": "2023-08-15T22:28:32.882Z",
+        "status": "Busy",
+        "created_at": "2023-08-16T07:57:01.186Z",
+        "updated_at": "2023-08-15T16:14:36.256Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2bb4296e-2a5f-4c9c-8943-fb2881aafb5d",
+        "day_of_week": "Friday",
+        "start_time": "2023-08-16T01:47:25.260Z",
+        "end_time": "2023-08-16T01:38:36.344Z",
+        "status": "Out of office",
+        "created_at": "2023-08-16T13:06:03.498Z",
+        "updated_at": "2023-08-16T09:50:27.459Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "68c31159-3c48-45d8-82bd-30106bca6948",
+        "date": "2023-08-16T14:08:12.548Z",
+        "time": "2023-08-16T13:33:24.354Z",
+        "status": "Scheduled",
+        "appointment_type": "General check-up",
+        "created_at": "2023-08-15T22:33:29.715Z",
+        "updated_at": "2023-08-15T16:24:44.534Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "c8747bc0-f8c0-4f45-a88b-f80ad8e7e144"
+      },
+      {
+        "id": "cc14dccf-501b-4834-bba5-b23c8a06d706",
+        "date": "2023-08-15T17:56:16.513Z",
+        "time": "2023-08-15T22:08:08.967Z",
+        "status": "Cancelled",
+        "appointment_type": "Dental cleaning",
+        "created_at": "2023-08-15T23:12:07.237Z",
+        "updated_at": "2023-08-16T06:06:09.432Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "1e8f23e2-9d09-4e7d-a6b2-c5869854b7f4"
+      },
+      {
+        "id": "c495432a-7873-43cc-9c3f-548305db03f7",
+        "date": "2023-08-15T19:28:48.757Z",
+        "time": "2023-08-16T08:52:27.375Z",
+        "status": "Completed",
+        "appointment_type": "Eye examination",
+        "created_at": "2023-08-15T15:20:46.397Z",
+        "updated_at": "2023-08-16T01:19:10.198Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "1e8f23e2-9d09-4e7d-a6b2-c5869854b7f4"
+      },
+      {
+        "id": "672e49c0-56f3-4a4f-b5b3-0933baaf4e83",
+        "date": "2023-08-15T14:47:35.623Z",
+        "time": "2023-08-15T17:23:09.731Z",
+        "status": "Rescheduled",
+        "appointment_type": "Physical therapy",
+        "created_at": "2023-08-16T01:22:13.697Z",
+        "updated_at": "2023-08-16T13:41:23.016Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "a1f0df42-feeb-458b-8b7b-a7a6009ddc07"
+      },
+      {
+        "id": "bb1f2bb3-483b-4001-b0ff-84feb7c650b3",
+        "date": "2023-08-16T10:08:00.304Z",
+        "time": "2023-08-15T21:32:37.516Z",
+        "status": "Pending",
+        "appointment_type": "Specialist consultation",
+        "created_at": "2023-08-15T23:58:21.609Z",
+        "updated_at": "2023-08-15T17:50:43.186Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "c8747bc0-f8c0-4f45-a88b-f80ad8e7e144"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "70df086f-17c2-469c-8593-cddc45e54834",
+        "email": "Rhianna_Leuschke-Bins@hotmail.com",
+        "firstName": "Zelma",
+        "lastName": "Kertzmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1001.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5ac40fe7-c7eb-4824-a7d0-e23648dfabf9",
+        "email": "Nelson80@hotmail.com",
+        "firstName": "Randy",
+        "lastName": "Mitchell",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83874159",
+        "tenantId": null
+      },
+      {
+        "reference": "825ee0e7-b8a6-45c1-a224-6d0c77f0ee0f",
+        "email": "Alexandre49@yahoo.com",
+        "firstName": "Tate",
+        "lastName": "Feest",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71107736",
+        "tenantId": null
+      },
+      {
+        "reference": "c326356e-22f0-4b96-82e0-c07cef059656",
+        "email": "Connor39@hotmail.com",
+        "firstName": "Lonnie",
+        "lastName": "Beier",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/859.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "dc798df2-36c5-44fb-bed0-4f960adac7ea",
+        "email": "Maribel_Hand16@yahoo.com",
+        "firstName": "Raphaelle",
+        "lastName": "Corwin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1224.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "insurance": [
+      {
+        "id": "34c0800c-a158-45eb-8d0f-747c19b1141f",
+        "name": "Health Insurance",
+        "description": "Comprehensive coverage for medical expenses",
+        "coverage": "$1 million",
+        "terms_and_conditions": "Policy terms and conditions apply",
+        "created_at": "2023-08-16T05:01:01.786Z",
+        "updated_at": "2023-08-16T06:51:21.854Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      },
+      {
+        "id": "dd51d1eb-e79b-4d09-abcf-08572a7d9c72",
+        "name": "Auto Insurance",
+        "description": "Protection for your vehicle against accidents",
+        "coverage": "$500,000",
+        "terms_and_conditions": "Exclusions may apply",
+        "created_at": "2023-08-16T12:11:57.482Z",
+        "updated_at": "2023-08-16T02:45:07.446Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      },
+      {
+        "id": "f639a254-8503-4c1e-a00b-a3ee05003516",
+        "name": "Home Insurance",
+        "description": "Coverage for your home and belongings",
+        "coverage": "$750,000",
+        "terms_and_conditions": "Coverage subject to approval",
+        "created_at": "2023-08-16T12:29:15.973Z",
+        "updated_at": "2023-08-16T10:57:36.232Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      },
+      {
+        "id": "e04270c7-ff5d-4f8a-b2c8-3e7b6503467f",
+        "name": "Travel Insurance",
+        "description": "Insurance for unexpected travel emergencies",
+        "coverage": "$2 million",
+        "terms_and_conditions": "Policy renewal required annually",
+        "created_at": "2023-08-16T10:27:45.085Z",
+        "updated_at": "2023-08-16T12:43:43.839Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      },
+      {
+        "id": "81f1dd9c-cc1f-4ab3-866c-3c8c10309cf9",
+        "name": "Life Insurance",
+        "description": "Financial protection for your loved ones",
+        "coverage": "$250,000",
+        "terms_and_conditions": "Additional riders available",
+        "created_at": "2023-08-16T13:55:48.760Z",
+        "updated_at": "2023-08-15T14:37:47.557Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      }
+    ],
+    "patient": [
+      {
+        "id": "966107c9-ce83-4411-8e84-279b6ff47cc0",
+        "date_of_birth": "2023-08-16T12:48:36.041Z",
+        "gender": "Male",
+        "medical_history": "No significant medical history",
+        "emergency_contact": "John Doe - 1234567890",
+        "created_at": "2023-08-15T21:26:21.121Z",
+        "updated_at": "2023-08-16T00:35:39.356Z",
+        "insurance_id": "dd51d1eb-e79b-4d09-abcf-08572a7d9c72",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c295f0cb-a9e0-44ce-a615-4f42530183b2",
+        "date_of_birth": "2023-08-16T10:14:03.996Z",
+        "gender": "Female",
+        "medical_history": "Allergies to certain medications",
+        "emergency_contact": "Jane Smith - 9876543210",
+        "created_at": "2023-08-15T20:16:30.786Z",
+        "updated_at": "2023-08-15T19:15:15.420Z",
+        "insurance_id": "81f1dd9c-cc1f-4ab3-866c-3c8c10309cf9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "88dae67c-5c51-4d6d-a18e-0fb99d9bd7d6",
+        "date_of_birth": "2023-08-15T21:42:27.978Z",
+        "gender": "Non-binary",
+        "medical_history": "Previous surgeries",
+        "emergency_contact": "Michael Brown - 5555555555",
+        "created_at": "2023-08-15T16:01:07.511Z",
+        "updated_at": "2023-08-15T17:47:34.914Z",
+        "insurance_id": "34c0800c-a158-45eb-8d0f-747c19b1141f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "07757965-ef0c-468c-8354-99ff905886b8",
+        "date_of_birth": "2023-08-16T14:21:56.482Z",
+        "gender": "Prefer not to say",
+        "medical_history": "Chronic health conditions",
+        "emergency_contact": "Sarah Jones - 1111111111",
+        "created_at": "2023-08-15T18:53:33.818Z",
+        "updated_at": "2023-08-16T12:36:26.874Z",
+        "insurance_id": "dd51d1eb-e79b-4d09-abcf-08572a7d9c72",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "885fa70c-e5ce-4523-9a7a-81c8a9317d34",
+        "date_of_birth": "2023-08-16T10:17:53.662Z",
+        "gender": "Other",
+        "medical_history": "Family history of certain diseases",
+        "emergency_contact": "David Wilson - 9999999999",
+        "created_at": "2023-08-16T08:40:54.170Z",
+        "updated_at": "2023-08-16T11:23:42.187Z",
+        "insurance_id": "dd51d1eb-e79b-4d09-abcf-08572a7d9c72",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "availability": [
+      {
+        "id": "65d73617-29c8-4c1c-96ea-76f0ba040d22",
+        "day_of_week": "Monday",
+        "start_time": "2023-08-16T10:21:51.488Z",
+        "end_time": "2023-08-15T15:33:48.199Z",
+        "status": "Available",
+        "created_at": "2023-08-15T17:03:04.793Z",
+        "updated_at": "2023-08-15T19:59:09.581Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "56e29570-b910-4d54-a679-959c834a332d",
+        "day_of_week": "Tuesday",
+        "start_time": "2023-08-15T18:59:16.753Z",
+        "end_time": "2023-08-16T01:07:08.366Z",
+        "status": "Unavailable",
+        "created_at": "2023-08-16T11:12:26.136Z",
+        "updated_at": "2023-08-15T22:17:28.094Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ff0f9ba1-2b2d-48ab-b4e5-2d13e6c0000b",
+        "day_of_week": "Wednesday",
+        "start_time": "2023-08-15T15:43:29.450Z",
+        "end_time": "2023-08-15T18:29:25.862Z",
+        "status": "Booked",
+        "created_at": "2023-08-16T01:51:54.089Z",
+        "updated_at": "2023-08-16T11:52:49.636Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0b8e6aa3-82fa-4e01-ad61-917d7891a1a6",
+        "day_of_week": "Thursday",
+        "start_time": "2023-08-16T00:17:21.053Z",
+        "end_time": "2023-08-15T19:24:31.889Z",
+        "status": "On leave",
+        "created_at": "2023-08-16T09:10:53.644Z",
+        "updated_at": "2023-08-16T12:19:20.103Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a01c180f-4f6e-414b-a51d-0c6f750b0ff1",
+        "day_of_week": "Friday",
+        "start_time": "2023-08-16T04:44:12.812Z",
+        "end_time": "2023-08-15T15:14:17.466Z",
+        "status": "Pending",
+        "created_at": "2023-08-16T10:47:04.882Z",
+        "updated_at": "2023-08-15T19:02:11.361Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "7f9d2150-adbb-441b-8091-fe99a8ce447c",
+        "date": "2023-08-16T02:49:32.925Z",
+        "time": "2023-08-15T16:49:09.238Z",
+        "status": "Confirmed",
+        "appointment_type": "General check-up",
+        "created_at": "2023-08-16T02:56:37.656Z",
+        "updated_at": "2023-08-15T17:50:08.257Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "c295f0cb-a9e0-44ce-a615-4f42530183b2"
+      },
+      {
+        "id": "97d7b9c6-794a-490e-a7e0-c2d2670ca69e",
+        "date": "2023-08-15T21:00:35.109Z",
+        "time": "2023-08-16T05:58:12.499Z",
+        "status": "Cancelled",
+        "appointment_type": "Dental cleaning",
+        "created_at": "2023-08-16T06:48:07.415Z",
+        "updated_at": "2023-08-15T15:12:03.564Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "885fa70c-e5ce-4523-9a7a-81c8a9317d34"
+      },
+      {
+        "id": "da95daa6-54df-4b66-a8b3-b3b37226a748",
+        "date": "2023-08-15T17:24:33.080Z",
+        "time": "2023-08-16T04:43:29.729Z",
+        "status": "Rescheduled",
+        "appointment_type": "Eye examination",
+        "created_at": "2023-08-15T23:08:57.995Z",
+        "updated_at": "2023-08-16T10:10:44.619Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "88dae67c-5c51-4d6d-a18e-0fb99d9bd7d6"
+      },
+      {
+        "id": "a3ce1418-7232-4b03-89a6-28024c4f0e06",
+        "date": "2023-08-15T16:40:26.735Z",
+        "time": "2023-08-16T08:27:37.375Z",
+        "status": "Completed",
+        "appointment_type": "Physical therapy",
+        "created_at": "2023-08-15T17:48:00.892Z",
+        "updated_at": "2023-08-16T06:13:52.312Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "885fa70c-e5ce-4523-9a7a-81c8a9317d34"
+      },
+      {
+        "id": "7ee1652c-b80e-4d11-8295-3e61be4201d2",
+        "date": "2023-08-16T04:22:34.135Z",
+        "time": "2023-08-16T07:32:57.019Z",
+        "status": "No-show",
+        "appointment_type": "Specialist consultation",
+        "created_at": "2023-08-15T16:49:03.708Z",
+        "updated_at": "2023-08-16T14:21:14.886Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "c295f0cb-a9e0-44ce-a615-4f42530183b2"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7c8a0c99-b297-481c-abc6-25a90a8952ab",
+        "email": "Allen16@hotmail.com",
+        "firstName": "Maryjane",
+        "lastName": "Hintz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1118.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4259e75d-5b84-462b-b65b-54a10251050c",
+        "email": "Laverna85@hotmail.com",
+        "firstName": "Jody",
+        "lastName": "Block",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/46.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "16e08cfd-f76c-43c3-8f95-bbba31a49d54",
+        "email": "Geo51@hotmail.com",
+        "firstName": "Nick",
+        "lastName": "Steuber-Hilll",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/265.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "70da1b64-3f23-491d-b910-07cd8774cb0b",
+        "email": "Amanda78@yahoo.com",
+        "firstName": "Ladarius",
+        "lastName": "Tromp",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25884568",
+        "tenantId": null
+      },
+      {
+        "reference": "5e6bad37-3c50-4bdc-b9f6-18c9ff45e617",
+        "email": "Alicia11@gmail.com",
+        "firstName": "Earnest",
+        "lastName": "Muller",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11884644",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "insurance": [
+      {
+        "id": "6afec80e-50b3-4c64-9b35-d06a0830cc55",
+        "name": "ABC Insurance",
+        "description": "Provides comprehensive coverage",
+        "coverage": "Auto",
+        "terms_and_conditions": "Terms and conditions apply",
+        "created_at": "2023-08-15T17:56:49.098Z",
+        "updated_at": "2023-08-15T19:54:21.997Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      },
+      {
+        "id": "4bdaa88c-8714-4be4-b7da-98006ac84334",
+        "name": "XYZ Insurance",
+        "description": "Offers affordable plans",
+        "coverage": "Home",
+        "terms_and_conditions": "Subject to policy guidelines",
+        "created_at": "2023-08-16T11:55:16.293Z",
+        "updated_at": "2023-08-15T18:28:27.903Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      },
+      {
+        "id": "b6024194-e866-4149-9e7d-ed000aa89f1c",
+        "name": "123 Insurance",
+        "description": "Specializes in auto insurance",
+        "coverage": "Life",
+        "terms_and_conditions": "Coverage may vary",
+        "created_at": "2023-08-16T11:21:52.871Z",
+        "updated_at": "2023-08-16T08:18:57.395Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      },
+      {
+        "id": "898caa25-b2ae-4e0c-a4de-380c71c8a83a",
+        "name": "Insurance Solutions",
+        "description": "Caters to small businesses",
+        "coverage": "Health",
+        "terms_and_conditions": "Exclusions may apply",
+        "created_at": "2023-08-16T13:21:25.562Z",
+        "updated_at": "2023-08-16T08:46:53.949Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      },
+      {
+        "id": "f8093453-1699-4cd0-8fca-80b2647a7d8f",
+        "name": "Global Insurance",
+        "description": "Provides health insurance",
+        "coverage": "Travel",
+        "terms_and_conditions": "Contact us for more details",
+        "created_at": "2023-08-16T09:15:58.078Z",
+        "updated_at": "2023-08-16T08:41:04.917Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      }
+    ],
+    "patient": [
+      {
+        "id": "728dbe91-a2ab-4a44-b6ba-359f32d0d954",
+        "date_of_birth": "2023-08-16T13:29:29.495Z",
+        "gender": "Male",
+        "medical_history": "No known medical conditions",
+        "emergency_contact": "John Doe",
+        "created_at": "2023-08-15T14:56:46.987Z",
+        "updated_at": "2023-08-16T12:19:28.791Z",
+        "insurance_id": "898caa25-b2ae-4e0c-a4de-380c71c8a83a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a4a66580-6d28-41ba-b09f-f6055fc40601",
+        "date_of_birth": "2023-08-16T09:21:02.056Z",
+        "gender": "Female",
+        "medical_history": "Allergies to certain medications",
+        "emergency_contact": "Jane Smith",
+        "created_at": "2023-08-16T09:54:38.608Z",
+        "updated_at": "2023-08-16T05:35:45.817Z",
+        "insurance_id": "f8093453-1699-4cd0-8fca-80b2647a7d8f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e8018f8b-483c-4ab7-a204-3f2395b90891",
+        "date_of_birth": "2023-08-15T19:28:22.493Z",
+        "gender": "Other",
+        "medical_history": "Previous surgeries",
+        "emergency_contact": "Michael Brown",
+        "created_at": "2023-08-16T02:01:45.264Z",
+        "updated_at": "2023-08-16T12:53:39.099Z",
+        "insurance_id": "6afec80e-50b3-4c64-9b35-d06a0830cc55",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c908f198-5a6d-40b8-bc35-0ca1aa97b2c3",
+        "date_of_birth": "2023-08-16T07:43:22.467Z",
+        "gender": "Prefer not to say",
+        "medical_history": "Chronic illness",
+        "emergency_contact": "Sarah Jones",
+        "created_at": "2023-08-16T11:24:32.886Z",
+        "updated_at": "2023-08-16T06:35:29.606Z",
+        "insurance_id": "4bdaa88c-8714-4be4-b7da-98006ac84334",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6fd3f079-a556-4808-8b17-c255a24011cf",
+        "date_of_birth": "2023-08-16T07:53:40.039Z",
+        "gender": "Unknown",
+        "medical_history": "Family history of heart disease",
+        "emergency_contact": "David Wilson",
+        "created_at": "2023-08-16T00:06:59.554Z",
+        "updated_at": "2023-08-16T12:15:59.756Z",
+        "insurance_id": "4bdaa88c-8714-4be4-b7da-98006ac84334",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "availability": [
+      {
+        "id": "b292a9d0-45e4-45c9-a935-bafdcab354f9",
+        "day_of_week": "Monday",
+        "start_time": "2023-08-15T23:04:57.446Z",
+        "end_time": "2023-08-16T09:24:28.256Z",
+        "status": "Available",
+        "created_at": "2023-08-15T22:39:53.196Z",
+        "updated_at": "2023-08-16T00:59:59.252Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "cb5e3cc0-6004-4789-bfd8-a7f38d6ce617",
+        "day_of_week": "Tuesday",
+        "start_time": "2023-08-16T06:49:57.479Z",
+        "end_time": "2023-08-15T16:01:59.577Z",
+        "status": "Unavailable",
+        "created_at": "2023-08-16T03:00:55.608Z",
+        "updated_at": "2023-08-16T00:01:38.211Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f2177084-220a-4417-ada4-60f030cd34ba",
+        "day_of_week": "Wednesday",
+        "start_time": "2023-08-15T16:03:15.460Z",
+        "end_time": "2023-08-16T01:08:41.165Z",
+        "status": "Booked",
+        "created_at": "2023-08-16T07:01:49.696Z",
+        "updated_at": "2023-08-15T17:23:18.399Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6d4817ef-14f2-42e1-b740-253d83577d7b",
+        "day_of_week": "Thursday",
+        "start_time": "2023-08-16T00:37:56.129Z",
+        "end_time": "2023-08-15T23:56:42.290Z",
+        "status": "On leave",
+        "created_at": "2023-08-16T12:29:18.821Z",
+        "updated_at": "2023-08-16T07:30:57.175Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "bed3c871-9431-47f3-a5a2-527a8ebe4c6b",
+        "day_of_week": "Friday",
+        "start_time": "2023-08-15T20:26:25.203Z",
+        "end_time": "2023-08-15T17:02:24.309Z",
+        "status": "Pending",
+        "created_at": "2023-08-16T07:48:24.806Z",
+        "updated_at": "2023-08-15T17:11:31.260Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "e16170a5-8a38-46c0-bec3-f06cea878792",
+        "date": "2023-08-15T17:14:56.529Z",
+        "time": "2023-08-16T00:34:54.877Z",
+        "status": "Confirmed",
+        "appointment_type": "General check-up",
+        "created_at": "2023-08-16T08:13:49.867Z",
+        "updated_at": "2023-08-16T03:24:36.319Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "6fd3f079-a556-4808-8b17-c255a24011cf"
+      },
+      {
+        "id": "d121f16b-8cb7-465c-8b27-34464ec4514d",
+        "date": "2023-08-16T02:04:14.280Z",
+        "time": "2023-08-16T04:30:25.032Z",
+        "status": "Cancelled",
+        "appointment_type": "Dental cleaning",
+        "created_at": "2023-08-16T03:00:28.129Z",
+        "updated_at": "2023-08-16T06:43:14.871Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "a4a66580-6d28-41ba-b09f-f6055fc40601"
+      },
+      {
+        "id": "60f568d1-8476-4bc9-8930-e780875f5868",
+        "date": "2023-08-15T23:24:52.974Z",
+        "time": "2023-08-16T12:10:29.003Z",
+        "status": "Rescheduled",
+        "appointment_type": "Eye examination",
+        "created_at": "2023-08-16T12:48:09.646Z",
+        "updated_at": "2023-08-16T13:18:59.001Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "728dbe91-a2ab-4a44-b6ba-359f32d0d954"
+      },
+      {
+        "id": "be6b1f97-e3ac-494d-8e03-78e7df44f18b",
+        "date": "2023-08-16T06:44:43.771Z",
+        "time": "2023-08-15T22:19:57.139Z",
+        "status": "Completed",
+        "appointment_type": "Physical therapy",
+        "created_at": "2023-08-16T09:20:55.469Z",
+        "updated_at": "2023-08-16T08:43:00.556Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "728dbe91-a2ab-4a44-b6ba-359f32d0d954"
+      },
+      {
+        "id": "4095eb3d-6b25-4691-a2dd-84283d184bc3",
+        "date": "2023-08-15T16:51:19.812Z",
+        "time": "2023-08-16T12:19:36.405Z",
+        "status": "No-show",
+        "appointment_type": "Mental health counseling",
+        "created_at": "2023-08-15T17:52:43.247Z",
+        "updated_at": "2023-08-16T01:42:17.992Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "e8018f8b-483c-4ab7-a204-3f2395b90891"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e3f237de-2c8f-4a1d-8579-682ffe0b34a1",
+        "email": "Christine75@yahoo.com",
+        "firstName": "Emmitt",
+        "lastName": "Windler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1087.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0cfac20a-3773-427e-ba40-64e4305189d0",
+        "email": "Elaina_Willms6@hotmail.com",
+        "firstName": "Ahmed",
+        "lastName": "Botsford",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25352436",
+        "tenantId": null
+      },
+      {
+        "reference": "b169fd86-2b9d-4541-a6b2-c10c34193d5e",
+        "email": "Carmel.Spencer8@yahoo.com",
+        "firstName": "Ulices",
+        "lastName": "DuBuque",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/518.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9b89fcb3-4bde-411f-b83a-1db183deec78",
+        "email": "Aimee.Pacocha@hotmail.com",
+        "firstName": "Julius",
+        "lastName": "Volkman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52775417",
+        "tenantId": null
+      },
+      {
+        "reference": "f90e8056-9512-4b97-8406-d74f140b7d35",
+        "email": "Greg41@yahoo.com",
+        "firstName": "Antonina",
+        "lastName": "Turner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83254469",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "insurance": [
+      {
+        "id": "9b5c2411-7a89-44ea-a81b-45e569631425",
+        "name": "Health Insurance",
+        "description": "Comprehensive coverage for medical expenses",
+        "coverage": "$1 million",
+        "terms_and_conditions": "Policy terms and conditions apply",
+        "created_at": "2023-08-16T12:05:59.629Z",
+        "updated_at": "2023-08-16T05:21:17.467Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      },
+      {
+        "id": "d0f94e8b-1be9-44c9-894e-142e57b5f5e0",
+        "name": "Auto Insurance",
+        "description": "Protection for your vehicle against accidents",
+        "coverage": "$500,000",
+        "terms_and_conditions": "Exclusions may apply",
+        "created_at": "2023-08-15T23:08:55.419Z",
+        "updated_at": "2023-08-16T05:13:58.536Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      },
+      {
+        "id": "f77b4534-eaf7-4bb6-ae39-49a5f3b0c23a",
+        "name": "Home Insurance",
+        "description": "Coverage for your home and belongings",
+        "coverage": "$750,000",
+        "terms_and_conditions": "Coverage subject to approval",
+        "created_at": "2023-08-16T10:03:38.011Z",
+        "updated_at": "2023-08-16T12:18:50.218Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      },
+      {
+        "id": "289498a4-2a8c-4092-870a-4fb950fef0ad",
+        "name": "Travel Insurance",
+        "description": "Insurance for unexpected travel emergencies",
+        "coverage": "$2 million",
+        "terms_and_conditions": "Policy renewal required annually",
+        "created_at": "2023-08-15T14:57:38.197Z",
+        "updated_at": "2023-08-16T10:30:55.471Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      },
+      {
+        "id": "34d35168-5f94-4c1c-8089-2d16ead2006b",
+        "name": "Life Insurance",
+        "description": "Financial protection for your loved ones",
+        "coverage": "$250,000",
+        "terms_and_conditions": "Deductibles may apply",
+        "created_at": "2023-08-16T14:09:59.072Z",
+        "updated_at": "2023-08-16T10:09:03.251Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      }
+    ],
+    "patient": [
+      {
+        "id": "cae4a479-afc4-467d-adc7-4c00413c9917",
+        "date_of_birth": "2023-08-15T15:07:39.756Z",
+        "gender": "Male",
+        "medical_history": "No known medical conditions",
+        "emergency_contact": "John Doe - 1234567890",
+        "created_at": "2023-08-16T04:39:52.851Z",
+        "updated_at": "2023-08-16T03:09:31.169Z",
+        "insurance_id": "289498a4-2a8c-4092-870a-4fb950fef0ad",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1fdd40e1-ddec-43e5-8195-ffaabfe422c2",
+        "date_of_birth": "2023-08-15T20:09:35.378Z",
+        "gender": "Female",
+        "medical_history": "Allergies to certain medications",
+        "emergency_contact": "Jane Smith - 9876543210",
+        "created_at": "2023-08-16T01:02:59.169Z",
+        "updated_at": "2023-08-16T08:11:14.493Z",
+        "insurance_id": "34d35168-5f94-4c1c-8089-2d16ead2006b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e0df531e-9984-401c-9855-54465dd90a52",
+        "date_of_birth": "2023-08-15T23:17:40.237Z",
+        "gender": "Other",
+        "medical_history": "Previous surgeries",
+        "emergency_contact": "Michael Brown - 5555555555",
+        "created_at": "2023-08-15T22:35:34.634Z",
+        "updated_at": "2023-08-16T03:30:44.016Z",
+        "insurance_id": "289498a4-2a8c-4092-870a-4fb950fef0ad",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "082c66d3-4a2f-41c9-839a-fcd0a8e722fd",
+        "date_of_birth": "2023-08-15T17:01:31.302Z",
+        "gender": "Prefer not to say",
+        "medical_history": "Chronic illness",
+        "emergency_contact": "Sarah Jones - 1111111111",
+        "created_at": "2023-08-16T13:37:04.595Z",
+        "updated_at": "2023-08-16T10:57:50.350Z",
+        "insurance_id": "d0f94e8b-1be9-44c9-894e-142e57b5f5e0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f8eb982b-cc2e-4423-b79d-72eb9dbc72ca",
+        "date_of_birth": "2023-08-15T18:56:27.624Z",
+        "gender": "Unknown",
+        "medical_history": "Family history of heart disease",
+        "emergency_contact": "David Wilson - 9999999999",
+        "created_at": "2023-08-16T07:57:31.404Z",
+        "updated_at": "2023-08-16T01:37:52.641Z",
+        "insurance_id": "9b5c2411-7a89-44ea-a81b-45e569631425",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "availability": [
+      {
+        "id": "3dd9904e-f553-4090-9635-7a1b3b38b16e",
+        "day_of_week": "Monday",
+        "start_time": "2023-08-16T01:06:32.162Z",
+        "end_time": "2023-08-16T05:55:43.562Z",
+        "status": "Available",
+        "created_at": "2023-08-15T17:10:53.270Z",
+        "updated_at": "2023-08-15T20:24:50.965Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "cf9c321b-6881-4219-8cba-08c24aff37af",
+        "day_of_week": "Tuesday",
+        "start_time": "2023-08-16T05:20:35.551Z",
+        "end_time": "2023-08-15T19:31:11.590Z",
+        "status": "Unavailable",
+        "created_at": "2023-08-15T21:13:04.222Z",
+        "updated_at": "2023-08-15T17:52:46.890Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c570aef3-1538-46f6-8118-ca771ea16a99",
+        "day_of_week": "Wednesday",
+        "start_time": "2023-08-15T23:11:44.974Z",
+        "end_time": "2023-08-16T06:04:01.372Z",
+        "status": "On leave",
+        "created_at": "2023-08-16T07:27:22.028Z",
+        "updated_at": "2023-08-16T05:01:23.190Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e0126ec4-b0fa-4af3-a260-333b689be3fc",
+        "day_of_week": "Thursday",
+        "start_time": "2023-08-15T21:21:50.262Z",
+        "end_time": "2023-08-15T18:55:03.034Z",
+        "status": "In a meeting",
+        "created_at": "2023-08-16T00:28:46.593Z",
+        "updated_at": "2023-08-16T04:01:14.292Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2284e78d-bd0e-449f-94bc-2a9fd0ddc9e8",
+        "day_of_week": "Friday",
+        "start_time": "2023-08-15T16:31:27.776Z",
+        "end_time": "2023-08-16T08:12:27.399Z",
+        "status": "Busy",
+        "created_at": "2023-08-15T15:29:20.342Z",
+        "updated_at": "2023-08-16T07:13:12.558Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "884acad1-caec-439a-a760-6425a498aef8",
+        "date": "2023-08-15T22:28:06.147Z",
+        "time": "2023-08-16T10:22:47.450Z",
+        "status": "Scheduled",
+        "appointment_type": "General check-up",
+        "created_at": "2023-08-16T11:47:03.332Z",
+        "updated_at": "2023-08-15T17:47:51.349Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "082c66d3-4a2f-41c9-839a-fcd0a8e722fd"
+      },
+      {
+        "id": "da8ab94b-e048-4d46-8547-849806751546",
+        "date": "2023-08-16T14:26:57.267Z",
+        "time": "2023-08-15T14:48:42.301Z",
+        "status": "Cancelled",
+        "appointment_type": "Dental cleaning",
+        "created_at": "2023-08-16T08:08:46.392Z",
+        "updated_at": "2023-08-16T13:17:28.494Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "cae4a479-afc4-467d-adc7-4c00413c9917"
+      },
+      {
+        "id": "223ce6fa-2d71-4b18-be23-f9eac04e6136",
+        "date": "2023-08-15T23:11:37.475Z",
+        "time": "2023-08-15T15:15:43.604Z",
+        "status": "Completed",
+        "appointment_type": "Eye examination",
+        "created_at": "2023-08-16T07:52:45.570Z",
+        "updated_at": "2023-08-15T22:51:35.676Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "cae4a479-afc4-467d-adc7-4c00413c9917"
+      },
+      {
+        "id": "b7bd3652-9c6e-4bbd-9b23-1c67003fd6d5",
+        "date": "2023-08-16T12:29:33.696Z",
+        "time": "2023-08-15T23:45:12.148Z",
+        "status": "Rescheduled",
+        "appointment_type": "Physical therapy",
+        "created_at": "2023-08-16T02:47:04.417Z",
+        "updated_at": "2023-08-16T05:55:34.939Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "082c66d3-4a2f-41c9-839a-fcd0a8e722fd"
+      },
+      {
+        "id": "55dff7e9-8133-4409-9d85-7278c1c53764",
+        "date": "2023-08-15T18:14:55.624Z",
+        "time": "2023-08-15T15:57:39.378Z",
+        "status": "Pending",
+        "appointment_type": "Specialist consultation",
+        "created_at": "2023-08-15T16:00:18.712Z",
+        "updated_at": "2023-08-16T11:56:30.339Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "cae4a479-afc4-467d-adc7-4c00413c9917"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6c55ad68-19f3-49f8-b946-d9bef678827b",
+        "email": "Raina43@yahoo.com",
+        "firstName": "Lonzo",
+        "lastName": "Koelpin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1114.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4e03fab5-ebc2-40ef-835c-0d54f13ea3d0",
+        "email": "Wilburn_Cronin@gmail.com",
+        "firstName": "Cyril",
+        "lastName": "Heller",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86116926",
+        "tenantId": null
+      },
+      {
+        "reference": "68a8ce36-f709-4a5b-b48a-67f291f5c82b",
+        "email": "Terrance77@hotmail.com",
+        "firstName": "Albertha",
+        "lastName": "Hills",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41055825",
+        "tenantId": null
+      },
+      {
+        "reference": "2bf96764-a64b-4a50-ab5b-846e005d2d1f",
+        "email": "Santos_Wyman@gmail.com",
+        "firstName": "Pearline",
+        "lastName": "Kiehn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/848.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8cf024ce-1724-4970-9c1a-d6a4bc364ee3",
+        "email": "Kaelyn.Carter@gmail.com",
+        "firstName": "Monty",
+        "lastName": "Bartoletti",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1040.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "insurance": [
+      {
+        "id": "719adedc-7f06-4378-8ec1-66989155e934",
+        "name": "Health Insurance",
+        "description": "Comprehensive coverage for medical expenses",
+        "coverage": "$1 million",
+        "terms_and_conditions": "Policy terms and conditions apply",
+        "created_at": "2023-08-15T20:50:33.933Z",
+        "updated_at": "2023-08-15T19:27:08.378Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      },
+      {
+        "id": "6fff16cb-08fb-491d-8236-87eb5da10279",
+        "name": "Auto Insurance",
+        "description": "Protection for your vehicle against accidents",
+        "coverage": "$500,000",
+        "terms_and_conditions": "Exclusions may apply",
+        "created_at": "2023-08-16T10:55:18.621Z",
+        "updated_at": "2023-08-15T17:31:15.250Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      },
+      {
+        "id": "79c0abf1-e0d9-4823-a4d2-4f4b0c839c6d",
+        "name": "Home Insurance",
+        "description": "Coverage for your home and belongings",
+        "coverage": "$750,000",
+        "terms_and_conditions": "Coverage subject to approval",
+        "created_at": "2023-08-16T10:47:12.059Z",
+        "updated_at": "2023-08-15T14:46:49.073Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      },
+      {
+        "id": "e2ed405e-04b9-4790-a5fe-e54cd73fb411",
+        "name": "Travel Insurance",
+        "description": "Insurance for unexpected travel emergencies",
+        "coverage": "$2 million",
+        "terms_and_conditions": "Policy renewal required annually",
+        "created_at": "2023-08-16T09:55:00.569Z",
+        "updated_at": "2023-08-16T04:42:31.056Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      },
+      {
+        "id": "d72d3c5c-d051-4ad8-ae30-014f0cca6c30",
+        "name": "Life Insurance",
+        "description": "Financial protection for your loved ones",
+        "coverage": "$250,000",
+        "terms_and_conditions": "Additional riders available",
+        "created_at": "2023-08-16T02:02:40.784Z",
+        "updated_at": "2023-08-15T19:45:49.948Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      }
+    ],
+    "patient": [
+      {
+        "id": "e0cd8fcc-1c43-400f-a73d-d47511546eb3",
+        "date_of_birth": "2023-08-16T12:05:04.362Z",
+        "gender": "Male",
+        "medical_history": "No significant medical history",
+        "emergency_contact": "John Doe - 1234567890",
+        "created_at": "2023-08-16T07:32:28.303Z",
+        "updated_at": "2023-08-16T07:18:52.126Z",
+        "insurance_id": "79c0abf1-e0d9-4823-a4d2-4f4b0c839c6d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "96216edd-6b84-4094-b69b-5ec009d80830",
+        "date_of_birth": "2023-08-16T13:40:49.165Z",
+        "gender": "Female",
+        "medical_history": "Allergies to certain medications",
+        "emergency_contact": "Jane Smith - 9876543210",
+        "created_at": "2023-08-16T02:47:17.268Z",
+        "updated_at": "2023-08-16T13:00:32.578Z",
+        "insurance_id": "e2ed405e-04b9-4790-a5fe-e54cd73fb411",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7d818f84-5d52-48ed-9ba0-049fd16c8866",
+        "date_of_birth": "2023-08-16T11:16:46.734Z",
+        "gender": "Non-binary",
+        "medical_history": "Previous surgeries",
+        "emergency_contact": "Michael Brown - 5555555555",
+        "created_at": "2023-08-16T04:53:28.204Z",
+        "updated_at": "2023-08-16T13:34:56.030Z",
+        "insurance_id": "e2ed405e-04b9-4790-a5fe-e54cd73fb411",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "79b4e47e-35dd-4644-aa7b-99fc60153dee",
+        "date_of_birth": "2023-08-16T07:26:32.984Z",
+        "gender": "Prefer not to say",
+        "medical_history": "Chronic health conditions",
+        "emergency_contact": "Sarah Jones - 1111111111",
+        "created_at": "2023-08-15T16:57:29.865Z",
+        "updated_at": "2023-08-16T00:23:22.206Z",
+        "insurance_id": "79c0abf1-e0d9-4823-a4d2-4f4b0c839c6d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "643d6eba-e134-4101-9e12-f7a17666f7d0",
+        "date_of_birth": "2023-08-15T20:36:53.914Z",
+        "gender": "Other",
+        "medical_history": "Family history of certain diseases",
+        "emergency_contact": "David Wilson - 9999999999",
+        "created_at": "2023-08-16T13:03:45.409Z",
+        "updated_at": "2023-08-15T19:37:22.623Z",
+        "insurance_id": "719adedc-7f06-4378-8ec1-66989155e934",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "availability": [
+      {
+        "id": "498b1ff9-74fc-4445-bf77-9e29109c9cef",
+        "day_of_week": "Monday",
+        "start_time": "2023-08-15T22:26:05.673Z",
+        "end_time": "2023-08-16T01:51:02.532Z",
+        "status": "Available",
+        "created_at": "2023-08-16T04:21:35.629Z",
+        "updated_at": "2023-08-15T16:03:53.105Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7cb4832f-061d-4d85-8331-f1298be39c75",
+        "day_of_week": "Tuesday",
+        "start_time": "2023-08-16T12:33:03.718Z",
+        "end_time": "2023-08-16T14:13:37.865Z",
+        "status": "Unavailable",
+        "created_at": "2023-08-15T21:55:41.534Z",
+        "updated_at": "2023-08-15T19:55:08.418Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e9ecff61-1bbe-418c-b71d-07ffd1caec5f",
+        "day_of_week": "Wednesday",
+        "start_time": "2023-08-16T11:13:14.157Z",
+        "end_time": "2023-08-15T15:33:57.190Z",
+        "status": "Booked",
+        "created_at": "2023-08-15T22:41:41.637Z",
+        "updated_at": "2023-08-16T04:17:36.068Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e01b9e56-55bd-4a2b-b8a4-5daae247b288",
+        "day_of_week": "Thursday",
+        "start_time": "2023-08-16T08:02:03.639Z",
+        "end_time": "2023-08-15T15:45:40.383Z",
+        "status": "On leave",
+        "created_at": "2023-08-16T11:38:42.885Z",
+        "updated_at": "2023-08-16T12:54:12.874Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "59459276-6303-4f96-94ff-b07a43a476f4",
+        "day_of_week": "Friday",
+        "start_time": "2023-08-16T12:54:55.344Z",
+        "end_time": "2023-08-16T07:54:09.657Z",
+        "status": "Pending",
+        "created_at": "2023-08-16T00:24:42.469Z",
+        "updated_at": "2023-08-15T21:34:31.334Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "9982ffc1-be65-4465-8de6-0fe5b15008e7",
+        "date": "2023-08-15T16:29:35.737Z",
+        "time": "2023-08-16T12:34:22.914Z",
+        "status": "Confirmed",
+        "appointment_type": "General check-up",
+        "created_at": "2023-08-15T17:46:39.268Z",
+        "updated_at": "2023-08-15T21:18:34.377Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "79b4e47e-35dd-4644-aa7b-99fc60153dee"
+      },
+      {
+        "id": "68082dbf-f81f-471e-8756-b2b18205d591",
+        "date": "2023-08-16T08:43:41.514Z",
+        "time": "2023-08-15T18:11:54.265Z",
+        "status": "Cancelled",
+        "appointment_type": "Dental cleaning",
+        "created_at": "2023-08-15T23:26:37.854Z",
+        "updated_at": "2023-08-16T03:17:24.604Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "96216edd-6b84-4094-b69b-5ec009d80830"
+      },
+      {
+        "id": "8cedb471-a074-43f3-9d29-6154f232bb2b",
+        "date": "2023-08-16T01:45:30.666Z",
+        "time": "2023-08-16T03:28:11.093Z",
+        "status": "Rescheduled",
+        "appointment_type": "Eye examination",
+        "created_at": "2023-08-16T04:04:55.889Z",
+        "updated_at": "2023-08-16T09:34:37.977Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "e0cd8fcc-1c43-400f-a73d-d47511546eb3"
+      },
+      {
+        "id": "1025678f-53e1-4a1a-9b78-e43b624177af",
+        "date": "2023-08-16T01:45:08.399Z",
+        "time": "2023-08-16T01:21:46.333Z",
+        "status": "Completed",
+        "appointment_type": "Physical therapy",
+        "created_at": "2023-08-15T14:37:30.677Z",
+        "updated_at": "2023-08-16T14:19:00.958Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "e0cd8fcc-1c43-400f-a73d-d47511546eb3"
+      },
+      {
+        "id": "3a7e4c64-f633-451a-a521-af3ba09dfb98",
+        "date": "2023-08-15T16:24:19.311Z",
+        "time": "2023-08-15T22:47:30.322Z",
+        "status": "No-show",
+        "appointment_type": "Specialist consultation",
+        "created_at": "2023-08-15T19:47:40.242Z",
+        "updated_at": "2023-08-16T05:38:42.199Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "96216edd-6b84-4094-b69b-5ec009d80830"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b63402f3-05d6-40b2-8fd4-3e91327c2618",
+        "email": "Melyssa22@gmail.com",
+        "firstName": "Ignatius",
+        "lastName": "Schamberger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/364.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "004e213e-a2d3-4014-9e6a-8adeba34a33a",
+        "email": "Stefan_Koepp@gmail.com",
+        "firstName": "Colton",
+        "lastName": "Stroman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65223843",
+        "tenantId": null
+      },
+      {
+        "reference": "378dc938-cdea-4e0f-b702-117a4c18681b",
+        "email": "Adela46@gmail.com",
+        "firstName": "Raleigh",
+        "lastName": "Emard",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82867155",
+        "tenantId": null
+      },
+      {
+        "reference": "af998d00-74d4-4c30-9f09-14fc79da0dd1",
+        "email": "Patience_Mertz10@gmail.com",
+        "firstName": "Ava",
+        "lastName": "Thiel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/336.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "eb9d26d6-5fbb-4df3-bafc-0509f8c541e7",
+        "email": "Francisco_Ebert@gmail.com",
+        "firstName": "Roosevelt",
+        "lastName": "MacGyver",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21981215",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "insurance": [
+      {
+        "id": "657eb273-408f-4794-b1a3-8757dbea080a",
+        "name": "Health Insurance",
+        "description": "Comprehensive coverage for medical expenses",
+        "coverage": "$1 million",
+        "terms_and_conditions": "Policy terms and conditions apply",
+        "created_at": "2023-08-15T15:43:01.969Z",
+        "updated_at": "2023-08-15T21:03:06.049Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      },
+      {
+        "id": "01909dcf-8fd7-476c-9696-4cc652a0b375",
+        "name": "Auto Insurance",
+        "description": "Protection for your vehicle against accidents",
+        "coverage": "$500,000",
+        "terms_and_conditions": "Exclusions may apply",
+        "created_at": "2023-08-15T14:55:12.283Z",
+        "updated_at": "2023-08-16T14:04:49.443Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      },
+      {
+        "id": "57bb17fe-52d5-4087-824a-a37c086b3a32",
+        "name": "Home Insurance",
+        "description": "Coverage for your home and belongings",
+        "coverage": "$750,000",
+        "terms_and_conditions": "Coverage subject to approval",
+        "created_at": "2023-08-16T06:06:58.322Z",
+        "updated_at": "2023-08-16T03:22:30.049Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      },
+      {
+        "id": "b194b3ae-b819-44b1-b67b-886b809fd906",
+        "name": "Travel Insurance",
+        "description": "Insurance for unexpected travel emergencies",
+        "coverage": "$2 million",
+        "terms_and_conditions": "Policy renewal required annually",
+        "created_at": "2023-08-15T18:44:28.753Z",
+        "updated_at": "2023-08-15T23:58:26.579Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      },
+      {
+        "id": "808b8be5-0230-40fc-be8c-4f69b1175b09",
+        "name": "Life Insurance",
+        "description": "Financial protection for your loved ones",
+        "coverage": "$250,000",
+        "terms_and_conditions": "Deductibles may apply",
+        "created_at": "2023-08-15T14:51:13.483Z",
+        "updated_at": "2023-08-16T07:13:25.111Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      }
+    ],
+    "patient": [
+      {
+        "id": "ef2124e8-0c54-4b04-9b2c-53fc86c59c8b",
+        "date_of_birth": "2023-08-15T14:40:24.586Z",
+        "gender": "Male",
+        "medical_history": "No known medical conditions",
+        "emergency_contact": "John Doe - 1234567890",
+        "created_at": "2023-08-16T01:59:52.196Z",
+        "updated_at": "2023-08-16T00:01:41.159Z",
+        "insurance_id": "57bb17fe-52d5-4087-824a-a37c086b3a32",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e361622f-addf-4890-bfa8-5973756d0fa1",
+        "date_of_birth": "2023-08-15T23:22:36.111Z",
+        "gender": "Female",
+        "medical_history": "Allergies to certain medications",
+        "emergency_contact": "Jane Smith - 9876543210",
+        "created_at": "2023-08-16T13:39:42.524Z",
+        "updated_at": "2023-08-15T20:15:10.513Z",
+        "insurance_id": "57bb17fe-52d5-4087-824a-a37c086b3a32",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c9d3027e-4df0-4ea0-86be-fa855908ce61",
+        "date_of_birth": "2023-08-15T15:53:58.385Z",
+        "gender": "Other",
+        "medical_history": "Previous surgeries",
+        "emergency_contact": "Michael Brown - 5555555555",
+        "created_at": "2023-08-16T10:39:55.249Z",
+        "updated_at": "2023-08-16T12:49:56.627Z",
+        "insurance_id": "b194b3ae-b819-44b1-b67b-886b809fd906",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8f3a0e22-c668-468e-83cc-c9c9918a31c3",
+        "date_of_birth": "2023-08-16T08:49:44.802Z",
+        "gender": "Prefer not to say",
+        "medical_history": "Chronic illness",
+        "emergency_contact": "Sarah Jones - 1111111111",
+        "created_at": "2023-08-15T19:06:29.644Z",
+        "updated_at": "2023-08-16T01:02:56.265Z",
+        "insurance_id": "b194b3ae-b819-44b1-b67b-886b809fd906",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ea30425f-f377-45b3-a2b8-d8ea70ed3611",
+        "date_of_birth": "2023-08-16T01:50:47.728Z",
+        "gender": "Unknown",
+        "medical_history": "Family history of heart disease",
+        "emergency_contact": "David Wilson - 9999999999",
+        "created_at": "2023-08-15T22:42:35.600Z",
+        "updated_at": "2023-08-15T16:59:14.138Z",
+        "insurance_id": "808b8be5-0230-40fc-be8c-4f69b1175b09",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "availability": [
+      {
+        "id": "06d6507f-c11e-462f-861b-a6ac001cee55",
+        "day_of_week": "Monday",
+        "start_time": "2023-08-16T04:57:17.917Z",
+        "end_time": "2023-08-15T18:14:01.821Z",
+        "status": "Available",
+        "created_at": "2023-08-15T20:30:09.790Z",
+        "updated_at": "2023-08-16T07:51:30.472Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2050e0ae-c8ad-46d7-b15e-a6ab6f783c2e",
+        "day_of_week": "Tuesday",
+        "start_time": "2023-08-16T11:25:12.684Z",
+        "end_time": "2023-08-16T02:06:34.482Z",
+        "status": "Unavailable",
+        "created_at": "2023-08-15T20:47:38.544Z",
+        "updated_at": "2023-08-16T02:24:45.183Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c25e901d-20cf-4c10-9598-f6b5826b0627",
+        "day_of_week": "Wednesday",
+        "start_time": "2023-08-16T05:50:35.103Z",
+        "end_time": "2023-08-16T00:31:01.530Z",
+        "status": "On leave",
+        "created_at": "2023-08-16T06:05:56.961Z",
+        "updated_at": "2023-08-15T19:51:13.931Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b6be5bd3-cc05-42fd-a834-9628e6946e22",
+        "day_of_week": "Thursday",
+        "start_time": "2023-08-16T03:24:09.634Z",
+        "end_time": "2023-08-15T15:28:08.611Z",
+        "status": "Busy",
+        "created_at": "2023-08-15T16:08:17.046Z",
+        "updated_at": "2023-08-15T18:24:16.852Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "cc8d8c42-df80-4b3a-9e71-a41ea82530ed",
+        "day_of_week": "Friday",
+        "start_time": "2023-08-15T20:48:01.058Z",
+        "end_time": "2023-08-16T08:16:42.311Z",
+        "status": "Out of office",
+        "created_at": "2023-08-16T10:00:44.907Z",
+        "updated_at": "2023-08-16T04:44:43.355Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "6f2bff7e-83f6-470c-952c-a9431875cc51",
+        "date": "2023-08-15T18:31:52.198Z",
+        "time": "2023-08-16T13:29:11.647Z",
+        "status": "Scheduled",
+        "appointment_type": "General check-up",
+        "created_at": "2023-08-16T10:52:00.421Z",
+        "updated_at": "2023-08-16T14:16:42.393Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "ef2124e8-0c54-4b04-9b2c-53fc86c59c8b"
+      },
+      {
+        "id": "8347fd3e-59d1-416b-89ad-119d11803608",
+        "date": "2023-08-16T04:43:26.061Z",
+        "time": "2023-08-15T18:22:55.994Z",
+        "status": "Cancelled",
+        "appointment_type": "Dental cleaning",
+        "created_at": "2023-08-15T19:07:37.499Z",
+        "updated_at": "2023-08-16T09:51:18.332Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "e361622f-addf-4890-bfa8-5973756d0fa1"
+      },
+      {
+        "id": "a37f66d0-d022-407f-8658-3afa4274dc93",
+        "date": "2023-08-15T22:49:24.761Z",
+        "time": "2023-08-16T08:08:13.250Z",
+        "status": "Completed",
+        "appointment_type": "Eye examination",
+        "created_at": "2023-08-15T17:38:44.978Z",
+        "updated_at": "2023-08-15T15:02:42.605Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "c9d3027e-4df0-4ea0-86be-fa855908ce61"
+      },
+      {
+        "id": "9b7b98fb-f411-44c7-8234-f2088ecdde79",
+        "date": "2023-08-16T03:00:53.920Z",
+        "time": "2023-08-16T02:40:29.089Z",
+        "status": "Rescheduled",
+        "appointment_type": "Physical therapy",
+        "created_at": "2023-08-16T04:32:21.812Z",
+        "updated_at": "2023-08-16T08:59:56.358Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "8f3a0e22-c668-468e-83cc-c9c9918a31c3"
+      },
+      {
+        "id": "23a6f2f0-0d39-4efe-8fd2-af841bb936b1",
+        "date": "2023-08-16T10:54:01.024Z",
+        "time": "2023-08-15T15:34:34.250Z",
+        "status": "Pending",
+        "appointment_type": "Mental health counseling",
+        "created_at": "2023-08-15T22:25:58.240Z",
+        "updated_at": "2023-08-16T08:17:22.470Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "ea30425f-f377-45b3-a2b8-d8ea70ed3611"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1a072e0a-93c6-4ab7-a8ef-f76798eb5d70",
+        "email": "Domingo.Flatley34@yahoo.com",
+        "firstName": "Elwin",
+        "lastName": "Luettgen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/455.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "10d68d34-1042-4adb-944e-1c4dcd23f303",
+        "email": "Elwyn.Hoeger-Brown@hotmail.com",
+        "firstName": "Lizzie",
+        "lastName": "Farrell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/392.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "372e7d65-f654-486a-a615-a23b29675cb3",
+        "email": "Kole8@hotmail.com",
+        "firstName": "Okey",
+        "lastName": "Larkin-Mitchell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1053.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a05556da-5c8d-485a-94c6-1b27c097bb3e",
+        "email": "Leo94@gmail.com",
+        "firstName": "Clifford",
+        "lastName": "Breitenberg",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1065.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fb1e9c6c-7366-46e9-8028-8e22f72aca1e",
+        "email": "Jaclyn48@gmail.com",
+        "firstName": "Abigail",
+        "lastName": "Stroman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/67.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "insurance": [
+      {
+        "id": "0088c9c1-ce4b-4355-8cfa-4288ae4cd3b1",
+        "name": "Health Insurance",
+        "description": "Comprehensive coverage for medical expenses",
+        "coverage": "$1 million",
+        "terms_and_conditions": "Policy terms and conditions apply",
+        "created_at": "2023-08-15T20:57:27.677Z",
+        "updated_at": "2023-08-16T02:50:45.206Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      },
+      {
+        "id": "f61abb29-7ccf-4ac7-8edf-07447e2efe28",
+        "name": "Auto Insurance",
+        "description": "Protection for your vehicle against accidents",
+        "coverage": "$500,000",
+        "terms_and_conditions": "Exclusions may apply",
+        "created_at": "2023-08-15T19:08:38.235Z",
+        "updated_at": "2023-08-16T09:47:01.994Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      },
+      {
+        "id": "617da3f5-c703-4727-9e9b-a8184a0632ab",
+        "name": "Home Insurance",
+        "description": "Coverage for your home and belongings",
+        "coverage": "$750,000",
+        "terms_and_conditions": "Coverage subject to approval",
+        "created_at": "2023-08-15T15:38:34.256Z",
+        "updated_at": "2023-08-16T12:05:50.251Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      },
+      {
+        "id": "a5ffd735-986e-40d4-8f5f-4fba91fb29d8",
+        "name": "Travel Insurance",
+        "description": "Insurance for unexpected travel emergencies",
+        "coverage": "$2 million",
+        "terms_and_conditions": "Policy renewal required annually",
+        "created_at": "2023-08-15T17:27:49.681Z",
+        "updated_at": "2023-08-16T05:21:17.864Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      },
+      {
+        "id": "37603e61-d1d1-4467-a188-3d1c51fbeedd",
+        "name": "Life Insurance",
+        "description": "Financial protection for your loved ones",
+        "coverage": "$250,000",
+        "terms_and_conditions": "Additional riders available",
+        "created_at": "2023-08-15T19:47:56.264Z",
+        "updated_at": "2023-08-16T06:03:42.795Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      }
+    ],
+    "patient": [
+      {
+        "id": "13e6b8e8-fb23-496b-88e8-3feff9a1d79b",
+        "date_of_birth": "2023-08-16T03:28:37.169Z",
+        "gender": "Male",
+        "medical_history": "No significant medical history",
+        "emergency_contact": "John Doe - 1234567890",
+        "created_at": "2023-08-15T15:40:24.338Z",
+        "updated_at": "2023-08-16T12:49:37.566Z",
+        "insurance_id": "617da3f5-c703-4727-9e9b-a8184a0632ab",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8491731b-06a9-4eda-98c8-18d8b7d815dc",
+        "date_of_birth": "2023-08-16T05:47:59.743Z",
+        "gender": "Female",
+        "medical_history": "Allergies to certain medications",
+        "emergency_contact": "Jane Smith - 9876543210",
+        "created_at": "2023-08-16T11:52:47.766Z",
+        "updated_at": "2023-08-16T11:52:42.799Z",
+        "insurance_id": "f61abb29-7ccf-4ac7-8edf-07447e2efe28",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "06a221dd-bdf8-4948-83c0-4002a7bf1a1c",
+        "date_of_birth": "2023-08-15T18:41:55.507Z",
+        "gender": "Non-binary",
+        "medical_history": "Previous surgeries",
+        "emergency_contact": "Michael Brown - 5555555555",
+        "created_at": "2023-08-16T08:20:51.930Z",
+        "updated_at": "2023-08-16T05:10:18.475Z",
+        "insurance_id": "37603e61-d1d1-4467-a188-3d1c51fbeedd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "df93a075-6325-4bd7-be54-b2e848c2213b",
+        "date_of_birth": "2023-08-16T10:09:08.482Z",
+        "gender": "Prefer not to say",
+        "medical_history": "Chronic health conditions",
+        "emergency_contact": "Sarah Jones - 1111111111",
+        "created_at": "2023-08-16T12:32:19.948Z",
+        "updated_at": "2023-08-16T12:25:31.522Z",
+        "insurance_id": "f61abb29-7ccf-4ac7-8edf-07447e2efe28",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1dbc3765-77ab-4f76-bfbe-5067bc7926f2",
+        "date_of_birth": "2023-08-15T23:03:34.208Z",
+        "gender": "Other",
+        "medical_history": "Family history of certain diseases",
+        "emergency_contact": "David Wilson - 9999999999",
+        "created_at": "2023-08-15T14:40:21.912Z",
+        "updated_at": "2023-08-16T00:54:48.950Z",
+        "insurance_id": "617da3f5-c703-4727-9e9b-a8184a0632ab",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "availability": [
+      {
+        "id": "32ff9ecb-36af-4469-9c8c-95012805a19e",
+        "day_of_week": "Monday",
+        "start_time": "2023-08-16T06:35:46.175Z",
+        "end_time": "2023-08-15T21:07:07.861Z",
+        "status": "Available",
+        "created_at": "2023-08-15T18:30:14.343Z",
+        "updated_at": "2023-08-16T10:07:39.861Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "54465586-18a7-4bbc-ae2b-1bc13e7fc345",
+        "day_of_week": "Tuesday",
+        "start_time": "2023-08-15T20:40:15.969Z",
+        "end_time": "2023-08-16T09:59:09.567Z",
+        "status": "Unavailable",
+        "created_at": "2023-08-16T13:49:32.477Z",
+        "updated_at": "2023-08-16T04:20:54.443Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2ca6265e-8bf3-4e20-adc5-6cb9ab6b6c42",
+        "day_of_week": "Wednesday",
+        "start_time": "2023-08-15T20:39:50.306Z",
+        "end_time": "2023-08-16T07:32:49.000Z",
+        "status": "Booked",
+        "created_at": "2023-08-16T07:47:10.786Z",
+        "updated_at": "2023-08-16T03:17:30.867Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8bb4f6c8-c0eb-464c-90e2-a7ab3027250c",
+        "day_of_week": "Thursday",
+        "start_time": "2023-08-15T19:21:37.012Z",
+        "end_time": "2023-08-15T15:11:22.219Z",
+        "status": "On leave",
+        "created_at": "2023-08-15T22:08:11.285Z",
+        "updated_at": "2023-08-15T18:38:10.244Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "624b8a77-e05a-4f3f-8886-e9d3c6479454",
+        "day_of_week": "Friday",
+        "start_time": "2023-08-16T12:40:34.097Z",
+        "end_time": "2023-08-16T01:12:57.769Z",
+        "status": "Pending",
+        "created_at": "2023-08-15T19:24:17.203Z",
+        "updated_at": "2023-08-15T20:28:07.827Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "110281f7-c2fc-4e27-90de-2eb4aabe5f09",
+        "date": "2023-08-15T20:31:37.699Z",
+        "time": "2023-08-15T18:53:37.994Z",
+        "status": "Confirmed",
+        "appointment_type": "General check-up",
+        "created_at": "2023-08-16T14:09:03.376Z",
+        "updated_at": "2023-08-16T14:22:37.353Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "df93a075-6325-4bd7-be54-b2e848c2213b"
+      },
+      {
+        "id": "e48e8064-2c0d-4131-a6c4-092119198da9",
+        "date": "2023-08-16T01:47:18.133Z",
+        "time": "2023-08-15T16:18:08.904Z",
+        "status": "Cancelled",
+        "appointment_type": "Dental cleaning",
+        "created_at": "2023-08-16T08:27:09.754Z",
+        "updated_at": "2023-08-16T08:26:17.969Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "06a221dd-bdf8-4948-83c0-4002a7bf1a1c"
+      },
+      {
+        "id": "8ac77322-88b7-47c2-9895-077fb56f560c",
+        "date": "2023-08-16T06:44:16.317Z",
+        "time": "2023-08-15T20:37:03.228Z",
+        "status": "Rescheduled",
+        "appointment_type": "Eye examination",
+        "created_at": "2023-08-15T16:27:19.006Z",
+        "updated_at": "2023-08-16T04:07:58.451Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "13e6b8e8-fb23-496b-88e8-3feff9a1d79b"
+      },
+      {
+        "id": "7189f2a9-1b89-4e10-807c-93d12d1e2215",
+        "date": "2023-08-15T15:21:16.755Z",
+        "time": "2023-08-15T15:28:02.907Z",
+        "status": "Completed",
+        "appointment_type": "Physical therapy",
+        "created_at": "2023-08-16T03:00:57.748Z",
+        "updated_at": "2023-08-16T07:27:17.145Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "1dbc3765-77ab-4f76-bfbe-5067bc7926f2"
+      },
+      {
+        "id": "990dfc35-8ccd-4ba8-8739-bb848f29442b",
+        "date": "2023-08-15T22:06:14.761Z",
+        "time": "2023-08-16T10:34:06.998Z",
+        "status": "No-show",
+        "appointment_type": "Specialist consultation",
+        "created_at": "2023-08-16T01:44:42.904Z",
+        "updated_at": "2023-08-16T10:55:22.453Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "8491731b-06a9-4eda-98c8-18d8b7d815dc"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "521c1a08-b3fd-4ea6-afda-64700297984a",
+        "email": "Savion_Ritchie36@hotmail.com",
+        "firstName": "Letitia",
+        "lastName": "Dare",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/202.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3547aed0-b304-42b8-b303-5dc50d01cf27",
+        "email": "Gerald.Hudson@hotmail.com",
+        "firstName": "Izaiah",
+        "lastName": "Lehner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27786671",
+        "tenantId": null
+      },
+      {
+        "reference": "39b389ee-12cc-43fe-874f-9f6a5ce28309",
+        "email": "Luigi_Bartoletti0@gmail.com",
+        "firstName": "Rhoda",
+        "lastName": "Rodriguez",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/94515811",
+        "tenantId": null
+      },
+      {
+        "reference": "c6b6bfd4-b413-4b4a-b957-83157fab42d2",
+        "email": "Lottie31@gmail.com",
+        "firstName": "Grant",
+        "lastName": "Ziemann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47723182",
+        "tenantId": null
+      },
+      {
+        "reference": "bc63deb8-0315-462a-a7d7-5137059459a2",
+        "email": "Estelle.Bosco37@hotmail.com",
+        "firstName": "Simone",
+        "lastName": "Block",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79691662",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "insurance": [
+      {
+        "id": "cc026cc9-c4fd-43a2-adb0-c5addf9a9b0b",
+        "name": "Health Insurance",
+        "description": "Comprehensive coverage for medical expenses",
+        "coverage": "$1 million",
+        "terms_and_conditions": "Policy terms and conditions apply",
+        "created_at": "2023-08-15T18:04:18.705Z",
+        "updated_at": "2023-08-16T12:10:02.407Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      },
+      {
+        "id": "0ad402e7-9f5c-4b40-96c2-7a63455427f0",
+        "name": "Auto Insurance",
+        "description": "Protection for your vehicle against accidents",
+        "coverage": "$500,000",
+        "terms_and_conditions": "Exclusions may apply",
+        "created_at": "2023-08-16T08:21:44.938Z",
+        "updated_at": "2023-08-15T22:22:19.860Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      },
+      {
+        "id": "fb53868b-5c89-4484-9f00-57561c530b8d",
+        "name": "Home Insurance",
+        "description": "Coverage for your home and belongings",
+        "coverage": "$750,000",
+        "terms_and_conditions": "Coverage subject to approval",
+        "created_at": "2023-08-16T11:38:01.587Z",
+        "updated_at": "2023-08-16T04:18:38.024Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      },
+      {
+        "id": "a8532df2-19ce-4b9c-a1ab-8d4fc721d368",
+        "name": "Travel Insurance",
+        "description": "Insurance for unexpected travel emergencies",
+        "coverage": "$2 million",
+        "terms_and_conditions": "Policy renewal required annually",
+        "created_at": "2023-08-15T14:55:53.837Z",
+        "updated_at": "2023-08-16T04:58:52.539Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      },
+      {
+        "id": "7713b54f-2232-4ab2-a1b2-c6567d06788a",
+        "name": "Life Insurance",
+        "description": "Financial protection for your loved ones",
+        "coverage": "$250,000",
+        "terms_and_conditions": "Deductibles may apply",
+        "created_at": "2023-08-16T00:12:17.364Z",
+        "updated_at": "2023-08-16T09:15:10.799Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      }
+    ],
+    "patient": [
+      {
+        "id": "6bc7dc06-94b6-4622-95c8-1fd463c75de7",
+        "date_of_birth": "2023-08-16T07:41:14.115Z",
+        "gender": "Male",
+        "medical_history": "No known medical conditions",
+        "emergency_contact": "John Doe - 1234567890",
+        "created_at": "2023-08-15T14:55:16.140Z",
+        "updated_at": "2023-08-15T19:52:35.464Z",
+        "insurance_id": "7713b54f-2232-4ab2-a1b2-c6567d06788a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aec9d65e-3935-465a-b2b6-a6e7ee8e1b39",
+        "date_of_birth": "2023-08-15T23:43:13.617Z",
+        "gender": "Female",
+        "medical_history": "Allergies to certain medications",
+        "emergency_contact": "Jane Smith - 9876543210",
+        "created_at": "2023-08-15T16:07:18.635Z",
+        "updated_at": "2023-08-15T16:13:14.560Z",
+        "insurance_id": "0ad402e7-9f5c-4b40-96c2-7a63455427f0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "68038695-6a5b-4d4f-a84f-ab60c9ab8cab",
+        "date_of_birth": "2023-08-16T10:05:33.645Z",
+        "gender": "Other",
+        "medical_history": "Previous surgeries",
+        "emergency_contact": "Michael Brown - 5555555555",
+        "created_at": "2023-08-16T12:36:57.174Z",
+        "updated_at": "2023-08-15T17:54:07.374Z",
+        "insurance_id": "fb53868b-5c89-4484-9f00-57561c530b8d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "61514f11-dc89-4461-930e-1d2f90a207c0",
+        "date_of_birth": "2023-08-16T01:06:44.798Z",
+        "gender": "Prefer not to say",
+        "medical_history": "Chronic illness",
+        "emergency_contact": "Sarah Jones - 1111111111",
+        "created_at": "2023-08-16T06:37:17.755Z",
+        "updated_at": "2023-08-16T00:06:13.295Z",
+        "insurance_id": "7713b54f-2232-4ab2-a1b2-c6567d06788a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "330dce5b-bc13-47b7-9b4d-cd0d03539796",
+        "date_of_birth": "2023-08-15T21:45:03.140Z",
+        "gender": "Unknown",
+        "medical_history": "Family history of heart disease",
+        "emergency_contact": "David Wilson - 9999999999",
+        "created_at": "2023-08-15T18:31:45.788Z",
+        "updated_at": "2023-08-16T13:07:59.934Z",
+        "insurance_id": "cc026cc9-c4fd-43a2-adb0-c5addf9a9b0b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "availability": [
+      {
+        "id": "09a4e986-bbdc-4f91-b1d7-68a8f38f40e2",
+        "day_of_week": "Monday",
+        "start_time": "2023-08-16T08:54:24.313Z",
+        "end_time": "2023-08-15T20:52:49.084Z",
+        "status": "Available",
+        "created_at": "2023-08-16T03:54:33.501Z",
+        "updated_at": "2023-08-16T05:36:15.642Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2c0d878f-2ff3-43a2-b530-55613ce58aa4",
+        "day_of_week": "Tuesday",
+        "start_time": "2023-08-15T16:25:10.646Z",
+        "end_time": "2023-08-15T18:30:12.047Z",
+        "status": "Unavailable",
+        "created_at": "2023-08-16T13:25:06.852Z",
+        "updated_at": "2023-08-16T07:55:16.571Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "168d9491-7b84-43d1-8b53-b8e9594e39ca",
+        "day_of_week": "Wednesday",
+        "start_time": "2023-08-16T09:04:50.764Z",
+        "end_time": "2023-08-16T01:35:46.304Z",
+        "status": "On leave",
+        "created_at": "2023-08-16T01:30:27.999Z",
+        "updated_at": "2023-08-16T05:03:26.012Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5b6e061f-872b-47f0-8300-07ac271ebccf",
+        "day_of_week": "Thursday",
+        "start_time": "2023-08-15T19:19:25.898Z",
+        "end_time": "2023-08-15T22:38:44.808Z",
+        "status": "In a meeting",
+        "created_at": "2023-08-16T08:05:29.838Z",
+        "updated_at": "2023-08-16T05:53:30.959Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "48d3df94-eca6-4f94-972d-96ea548a562f",
+        "day_of_week": "Friday",
+        "start_time": "2023-08-16T10:08:44.983Z",
+        "end_time": "2023-08-15T20:50:43.075Z",
+        "status": "Busy",
+        "created_at": "2023-08-16T00:38:33.239Z",
+        "updated_at": "2023-08-16T13:07:24.380Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "cce24262-ed58-4d0a-a725-d298ed8a533c",
+        "date": "2023-08-16T07:19:42.491Z",
+        "time": "2023-08-16T02:35:13.916Z",
+        "status": "Scheduled",
+        "appointment_type": "General check-up",
+        "created_at": "2023-08-16T03:42:45.757Z",
+        "updated_at": "2023-08-16T05:35:08.770Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "aec9d65e-3935-465a-b2b6-a6e7ee8e1b39"
+      },
+      {
+        "id": "da848939-cdce-458f-924f-e8d37d46fd23",
+        "date": "2023-08-16T01:07:25.221Z",
+        "time": "2023-08-16T01:09:24.323Z",
+        "status": "Cancelled",
+        "appointment_type": "Dental cleaning",
+        "created_at": "2023-08-16T05:00:54.839Z",
+        "updated_at": "2023-08-16T01:44:16.531Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "61514f11-dc89-4461-930e-1d2f90a207c0"
+      },
+      {
+        "id": "7dae4b5d-9915-46ed-bdc9-c6f179d81bb8",
+        "date": "2023-08-16T09:42:41.263Z",
+        "time": "2023-08-16T00:12:19.352Z",
+        "status": "Completed",
+        "appointment_type": "Eye examination",
+        "created_at": "2023-08-16T06:37:45.563Z",
+        "updated_at": "2023-08-16T09:56:53.861Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "330dce5b-bc13-47b7-9b4d-cd0d03539796"
+      },
+      {
+        "id": "160dbe6e-8010-4bbb-90b9-087a6833cf49",
+        "date": "2023-08-16T10:59:38.252Z",
+        "time": "2023-08-16T01:51:48.695Z",
+        "status": "Rescheduled",
+        "appointment_type": "Physical therapy",
+        "created_at": "2023-08-16T02:46:45.988Z",
+        "updated_at": "2023-08-16T03:40:11.500Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "330dce5b-bc13-47b7-9b4d-cd0d03539796"
+      },
+      {
+        "id": "6e62c6cd-75d2-4efd-9d9e-55f5670c44c6",
+        "date": "2023-08-15T18:03:38.856Z",
+        "time": "2023-08-16T01:27:05.836Z",
+        "status": "Pending",
+        "appointment_type": "Specialist consultation",
+        "created_at": "2023-08-16T14:20:40.950Z",
+        "updated_at": "2023-08-15T21:16:16.650Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "6bc7dc06-94b6-4622-95c8-1fd463c75de7"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "fecf72cd-7ac0-485f-a279-6968ed518be3",
+        "email": "Chad.Daniel@hotmail.com",
+        "firstName": "Shad",
+        "lastName": "Nienow",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78421412",
+        "tenantId": null
+      },
+      {
+        "reference": "db748eb5-7cab-47e3-9ba4-081133fc573a",
+        "email": "Sandra_Rodriguez67@gmail.com",
+        "firstName": "Alyson",
+        "lastName": "Lindgren",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64234907",
+        "tenantId": null
+      },
+      {
+        "reference": "c794a90f-747d-446a-8f77-ea872da11499",
+        "email": "Elbert_Bernier@gmail.com",
+        "firstName": "Nia",
+        "lastName": "Hermiston",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/261.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5508a83b-e832-4d9f-9160-80e63a2689db",
+        "email": "Selena_Bogan@gmail.com",
+        "firstName": "Therese",
+        "lastName": "Mitchell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/155.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6c918c8e-eaac-49de-8f26-8e7a6f49f84f",
+        "email": "Oswaldo.Spinka@gmail.com",
+        "firstName": "Gertrude",
+        "lastName": "McCullough-Ankunding",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/313.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "insurance": [
+      {
+        "id": "f4e73845-ced5-431e-a9d2-cf1dcff1b235",
+        "name": "ABC Insurance",
+        "description": "Provides comprehensive coverage",
+        "coverage": "Auto",
+        "terms_and_conditions": "Terms and conditions apply",
+        "created_at": "2023-08-15T15:49:25.784Z",
+        "updated_at": "2023-08-16T13:22:52.060Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      },
+      {
+        "id": "aff5ffe8-4563-488d-8587-3f1216634345",
+        "name": "XYZ Insurance",
+        "description": "Offers affordable plans",
+        "coverage": "Home",
+        "terms_and_conditions": "Subject to policy guidelines",
+        "created_at": "2023-08-16T07:32:37.416Z",
+        "updated_at": "2023-08-15T20:50:59.184Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      },
+      {
+        "id": "eff481b4-c57a-4a79-97bc-fc3dcf6ddd8d",
+        "name": "123 Insurance",
+        "description": "Specializes in auto insurance",
+        "coverage": "Life",
+        "terms_and_conditions": "Coverage may vary",
+        "created_at": "2023-08-16T14:29:29.426Z",
+        "updated_at": "2023-08-16T06:50:57.576Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      },
+      {
+        "id": "2e2c661a-9336-4cfc-bffa-61ff774dfe1a",
+        "name": "Insurance Solutions",
+        "description": "Caters to small businesses",
+        "coverage": "Health",
+        "terms_and_conditions": "Exclusions may apply",
+        "created_at": "2023-08-15T15:51:35.923Z",
+        "updated_at": "2023-08-15T16:10:22.961Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      },
+      {
+        "id": "7064c845-dd38-4224-ab47-4168f0da060c",
+        "name": "Global Insurance",
+        "description": "Provides health insurance",
+        "coverage": "Travel",
+        "terms_and_conditions": "Contact us for more details",
+        "created_at": "2023-08-16T10:04:12.662Z",
+        "updated_at": "2023-08-16T01:56:37.978Z",
+        "organization_id": "main_entity_pk",
+        "provider_id": "user_entity_pk"
+      }
+    ],
+    "patient": [
+      {
+        "id": "0cf12f44-ac31-421c-adf7-711cd193c4f1",
+        "date_of_birth": "2023-08-16T06:39:15.605Z",
+        "gender": "Male",
+        "medical_history": "No known medical conditions",
+        "emergency_contact": "John Doe",
+        "created_at": "2023-08-15T20:22:59.920Z",
+        "updated_at": "2023-08-16T10:56:47.940Z",
+        "insurance_id": "eff481b4-c57a-4a79-97bc-fc3dcf6ddd8d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b05da338-cc19-4ce9-b8fa-844d3c5a25fc",
+        "date_of_birth": "2023-08-16T08:39:58.033Z",
+        "gender": "Female",
+        "medical_history": "Allergies to certain medications",
+        "emergency_contact": "Jane Smith",
+        "created_at": "2023-08-16T03:50:12.633Z",
+        "updated_at": "2023-08-16T13:14:04.227Z",
+        "insurance_id": "aff5ffe8-4563-488d-8587-3f1216634345",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b033f1ba-4a97-4b6d-be25-3501eb2d29bb",
+        "date_of_birth": "2023-08-16T00:20:28.760Z",
+        "gender": "Other",
+        "medical_history": "Previous surgeries",
+        "emergency_contact": "Michael Brown",
+        "created_at": "2023-08-15T15:16:03.362Z",
+        "updated_at": "2023-08-15T16:15:13.639Z",
+        "insurance_id": "f4e73845-ced5-431e-a9d2-cf1dcff1b235",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fc0bd994-abeb-4889-9a6b-0b5d473cbe47",
+        "date_of_birth": "2023-08-15T20:01:49.297Z",
+        "gender": "Prefer not to say",
+        "medical_history": "Chronic illness",
+        "emergency_contact": "Sarah Jones",
+        "created_at": "2023-08-15T22:31:15.716Z",
+        "updated_at": "2023-08-15T16:35:25.452Z",
+        "insurance_id": "7064c845-dd38-4224-ab47-4168f0da060c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b590d772-a34c-4a9b-86f2-f68a944dab0d",
+        "date_of_birth": "2023-08-16T14:21:11.341Z",
+        "gender": "Unknown",
+        "medical_history": "Family history of heart disease",
+        "emergency_contact": "David Wilson",
+        "created_at": "2023-08-15T17:26:29.192Z",
+        "updated_at": "2023-08-15T21:46:19.865Z",
+        "insurance_id": "eff481b4-c57a-4a79-97bc-fc3dcf6ddd8d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "availability": [
+      {
+        "id": "7525ab6b-307d-4d61-afb9-0b2ebf3a1e05",
+        "day_of_week": "Monday",
+        "start_time": "2023-08-16T11:38:16.681Z",
+        "end_time": "2023-08-16T09:52:21.191Z",
+        "status": "Available",
+        "created_at": "2023-08-15T14:45:00.621Z",
+        "updated_at": "2023-08-16T01:17:40.608Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6c41e30d-13a6-4451-bca1-3a20b4afb0e0",
+        "day_of_week": "Tuesday",
+        "start_time": "2023-08-15T21:21:59.632Z",
+        "end_time": "2023-08-16T02:57:28.919Z",
+        "status": "Unavailable",
+        "created_at": "2023-08-16T07:43:21.260Z",
+        "updated_at": "2023-08-16T09:50:53.860Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "576ce1ea-a047-48fb-b47f-10f2348e7487",
+        "day_of_week": "Wednesday",
+        "start_time": "2023-08-16T04:52:32.842Z",
+        "end_time": "2023-08-15T19:14:48.227Z",
+        "status": "Booked",
+        "created_at": "2023-08-16T05:36:38.257Z",
+        "updated_at": "2023-08-16T12:51:30.565Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f24c1174-58cd-406d-b3f8-9ec182d6bddf",
+        "day_of_week": "Thursday",
+        "start_time": "2023-08-16T06:44:32.636Z",
+        "end_time": "2023-08-15T23:51:32.241Z",
+        "status": "On leave",
+        "created_at": "2023-08-16T01:20:18.593Z",
+        "updated_at": "2023-08-16T02:44:57.619Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "df3fcc6d-dfbb-459a-9376-23fd1fc7667e",
+        "day_of_week": "Friday",
+        "start_time": "2023-08-15T16:50:57.514Z",
+        "end_time": "2023-08-16T03:36:22.544Z",
+        "status": "Pending",
+        "created_at": "2023-08-16T08:28:43.562Z",
+        "updated_at": "2023-08-15T17:01:55.673Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "d2b63088-6974-4b16-a645-6b765ddfab31",
+        "date": "2023-08-15T19:02:18.212Z",
+        "time": "2023-08-16T14:23:44.224Z",
+        "status": "Confirmed",
+        "appointment_type": "General check-up",
+        "created_at": "2023-08-15T18:10:35.509Z",
+        "updated_at": "2023-08-16T08:08:58.870Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "fc0bd994-abeb-4889-9a6b-0b5d473cbe47"
+      },
+      {
+        "id": "d15fe60c-ae6f-4ab3-a4e5-5d517c520fa1",
+        "date": "2023-08-16T00:55:21.870Z",
+        "time": "2023-08-15T21:45:41.839Z",
+        "status": "Cancelled",
+        "appointment_type": "Dental cleaning",
+        "created_at": "2023-08-15T15:43:35.847Z",
+        "updated_at": "2023-08-15T20:10:47.686Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "0cf12f44-ac31-421c-adf7-711cd193c4f1"
+      },
+      {
+        "id": "60dfb83e-69ab-4d8b-b037-5b55bdcac221",
+        "date": "2023-08-16T06:12:44.810Z",
+        "time": "2023-08-16T14:35:41.432Z",
+        "status": "Rescheduled",
+        "appointment_type": "Eye examination",
+        "created_at": "2023-08-16T04:45:18.475Z",
+        "updated_at": "2023-08-16T07:42:56.231Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "0cf12f44-ac31-421c-adf7-711cd193c4f1"
+      },
+      {
+        "id": "9c8cb2b7-1b6b-453e-b018-731305ba87de",
+        "date": "2023-08-15T21:59:27.351Z",
+        "time": "2023-08-15T20:54:34.885Z",
+        "status": "Completed",
+        "appointment_type": "Physical therapy",
+        "created_at": "2023-08-15T17:57:23.329Z",
+        "updated_at": "2023-08-16T07:30:41.401Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "0cf12f44-ac31-421c-adf7-711cd193c4f1"
+      },
+      {
+        "id": "0438b31f-fa75-4145-b7f9-d88190b997ef",
+        "date": "2023-08-16T04:43:26.225Z",
+        "time": "2023-08-16T02:40:45.541Z",
+        "status": "No-show",
+        "appointment_type": "Mental health counseling",
+        "created_at": "2023-08-15T15:07:46.609Z",
+        "updated_at": "2023-08-16T11:25:18.260Z",
+        "doctor_id": "user_entity_pk",
+        "organization_id": "main_entity_pk",
+        "patient_id": "0cf12f44-ac31-421c-adf7-711cd193c4f1"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ef38e9fe-04e6-4e21-928b-794f4d34211d",
+        "email": "Mellie.Rogahn20@gmail.com",
+        "firstName": "Riley",
+        "lastName": "Smitham",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29189413",
+        "tenantId": null
+      },
+      {
+        "reference": "8948e3bc-333b-425c-9b87-8fd593cbafbd",
+        "email": "Gilbert.Jaskolski53@yahoo.com",
+        "firstName": "Bonnie",
+        "lastName": "Dickinson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83149419",
+        "tenantId": null
+      },
+      {
+        "reference": "99d57229-63b0-4077-8f79-6d846b5d3fc3",
+        "email": "Loyal.Krajcik71@hotmail.com",
+        "firstName": "Kaycee",
+        "lastName": "Hoeger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/562.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2c88292c-6da1-496f-8bb9-a8fe30b106e9",
+        "email": "Irving88@gmail.com",
+        "firstName": "Gabriel",
+        "lastName": "Kilback",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89035753",
+        "tenantId": null
+      },
+      {
+        "reference": "8f9f6415-6e03-4330-a9ac-d7bff8de17f2",
+        "email": "Mark29@yahoo.com",
+        "firstName": "Marco",
+        "lastName": "Cummings",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/401.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
